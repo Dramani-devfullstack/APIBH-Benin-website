@@ -8,7 +8,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -208,7 +207,13 @@ cta-1
 .schedule-tab {
 	background-color: #0CB8B6;
     float: left;
-    
+}
+
+#schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
  .medi-info{
 	border-right: 1px solid #fff;
