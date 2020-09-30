@@ -1,3 +1,6 @@
+AOS.init(
+  {duration: 1200,})
+
 (function($) {
 
   // Add smooth scrolling to all links in navbar
@@ -28,4 +31,7 @@
     }
   });
 
+
 })(jQuery);
+
+

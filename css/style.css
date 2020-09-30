@@ -28,7 +28,7 @@ table {
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Epilogue', sans-serif;
 	font-weight: 600;
 	color: #222222;
 }
@@ -147,7 +147,9 @@ banner
 }
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
-	min-height: 650px;
+    min-height: 650px;
+    opacity: 0.8;
+   
 }
 .banner-info{
 	padding-top: 190px;
@@ -193,10 +195,41 @@ services
 	margin-bottom: 25px;
 }
 .service-info{
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card {
+    height: 150px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+    font-size: medium;
+}
+.card i {
+
+    padding: 20px;
+    
+}
+.service-info1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+
+.service-info2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
 }
 .icon-info h4{
-	padding-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    justify-content: center;
 }
 .icon-info p{
 	font-size: 15px !important;
